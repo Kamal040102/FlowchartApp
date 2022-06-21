@@ -87,40 +87,6 @@
     cursor:pointer;
 }
 
-.Arrow {
-    position:relative;
-    font-size: 7rem;
-    color:white;
-    font-weight: 100;
-    z-index: 0;
-}
-
-#rightArrow {
-    top: -40px;
-    right: -193px;
-}
-
-#leftArrow {
-    top: -177px;
-    right: 193px;
-}
-
-#zindex {
-    z-index: 1;
-}
-
-#rightBody {
-    position:relative;
-    top:-250px;
-    left:399px;
-}
-
-#leftBody {
-    position:relative;
-    top:-414px;
-    right:400px;
-}
-
 .container-fluid h1 {
     color:white;
     text-decoration: underline;
