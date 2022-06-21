@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container-fluid {
+    min-width: 100vw;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color:rgb(183, 183, 183);
+    padding: 20px 0 20px 0;
+}
+
+.body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.flowchart-comp {
+    padding: 1rem 3rem 1rem 3rem;
+    background-color:white;
+}
+
+.flowchart-text {
+    background-color: transparent;
+    border: none;
+    font-size: larger;
+    text-align: center;
+}
+
+.flowchart-text:focus-visible {
+    border: none;
+}
+
+.border {
+    box-shadow: 10px 10px 10px #888888;
+}
+
+.verticalLine {
+    background-color:white;
+    color:transparent;
+    height: 4rem;
+    width:2%;
+    margin: auto;
+    cursor:default;
+}
+
+.addButton {
+    font-size: 2rem;
+    font-weight:bolder;
+    border-radius: 50%;
+    width: 3rem;
+    background-color:white;
+    text-align:center;
+    cursor:pointer;
+}
+
+.deleteBtn{
+    visibility:hidden;
+    font-size:20px;
+    color: #fff;
+    background: red;
+    border-radius:50%;
+    padding: 5px 5px;
+    position:relative;
+    left:297px;
+    top:-23px;
+    opacity:0.9;
+}
+
+.flowchart-comp:hover .deleteBtn{
+    visibility: visible;
+    font-size:20px;
+    color: #fff;
+    background: red;
+    border-radius:50%;
+    padding: 5px 5px;
+    position:relative;
+    left:297px;
+    top:-23px;
+    opacity:0.9;
+    cursor:pointer;
+}
+
+.Arrow {
+    position:relative;
+    font-size: 7rem;
+    color:white;
+    font-weight: 100;
+    z-index: 0;
+}
+
+#rightArrow {
+    top: -40px;
+    right: -193px;
+}
+
+#leftArrow {
+    top: -177px;
+    right: 193px;
+}
+
+#zindex {
+    z-index: 1;
+}
+
+#rightBody {
+    position:relative;
+    top:-250px;
+    left:399px;
+}
+
+#leftBody {
+    position:relative;
+    top:-414px;
+    right:400px;
+}
+
+.container-fluid h1 {
+    color:white;
+    text-decoration: underline;
+    margin: 2rem 0 2rem 0;
+    cursor:pointer;
+}
